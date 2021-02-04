@@ -1,0 +1,92 @@
+body {
+    background-image: url(https://id.jobgoody.com/article/wp-content/uploads/2016/07/buildings-1031672_1280-1024x682.jpg);
+    background-size: cover;
+}
+.cvHead {
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.photoId {
+    border-radius: 50%;
+}
+.cvBorder {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    margin: auto;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+    float: left;
+}
+table {
+    padding: 8%;
+}
+.cvBody {
+    padding: 2%;
+    border-radius: 10px;
+    background-color: burlywood;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+h4 {
+    text-align: center;
+}
+h2  {
+    background-color: chocolate;
+    color: cornsilk;
+}
+.leftBody-top {
+    padding: 2%;
+    border-radius: 10px;
+    background-color: azure;
+    box-sizing: border-box;
+    width: max-content;
+}
+.leftBody-center {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: azure;
+    box-sizing: border-box;
+    text-align: center;
+    width: 50vh;
+}
+.leftBody-bottom {
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: azure;
+    box-sizing: border-box;
+    text-align: center;
+}
+.rightBody {
+    margin: auto;
+    text-align: center;
+}
+.cvBorder-right {
+    width: 40%;
+    height: 50%;
+    background-color: aqua;
+    margin: auto;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+    float: right;
+}
+.h2-border {
+    padding: 2%;
+    border-radius: 10px;
+}
+button {
+    width: 20vh;
+    border-radius: 10px;
+}
+button:hover {
+    width: 40vh;
+    color: darkseagreen;
+    border-radius: 10px;
+    background-color: darkgreen;
+}
